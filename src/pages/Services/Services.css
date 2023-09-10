@@ -1,0 +1,121 @@
+ /*----------- Services start-------------- */
+.services {
+   background-color: #f2f2f2;
+}
+.services .left{
+   padding-left: 60px;
+}
+
+
+.services  .left p{
+  font-size: 22px;
+  color:#848484;
+}
+.services  .left h1{
+  font-size: 22px;
+  color:#7f7f7f;
+}
+.services  .left .button-width{
+   border: none;
+   border-radius: 20px;
+   padding: 5px 20px;
+   background-color: #d9d9d9;
+}
+.arow-icon{
+   color: #7f7f7f;
+}
+.services  .right h1{
+  font-size: 16px;
+  color: #ffce3a;
+
+}
+.services .right p{
+  font-size: 12px;
+
+}
+.services .right .box{
+   background-color: #ffffff;
+   padding: 10px;
+}
+/*----------- Services end-------------- */
+/*----------- Outline start-------------- */
+
+.outline h1{
+    font-size: 28px;
+    color:#7f7f7f;
+
+}
+.outline p{
+   font-size: 21px;
+   color:#848484;
+}
+/*----------- Outline end-------------- */
+/* ------------Hero start-------------------*/
+
+.hero .image-banner{
+
+  background-image: url('./../../../public//images/banner.jpeg'); 
+  background-position: 50%;
+  background-repeat: no-repeat;
+  aspect-ratio: 6/3;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: multiply;
+
+}
+.hero h2{
+   font-size: 28px;
+   color: #eeb405;
+}
+.hero h1{
+  font-size: 56px;
+  color:#ffffff
+}
+
+@media screen and (max-width: 992px) {
+  .services .left{
+    padding-left: 0px;
+ }
+    
+}
+/* ------------Hero end-------------------*/
+/*--------- Cutting start---------------- */
+.cutting .image-banner{
+   background-image: url('./../../../public//images/cutting.webp'); 
+  background-position: 50%;
+  background-repeat: no-repeat;
+  aspect-ratio: 6/2;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: multiply;
+
+}
+/*---------  Cutting end---------------- */
+.image-banner .image-banner-inner{
+   
+   
+   background-color: #f2f2f2;
+}
+.cutting .bottom h1{
+  font-size: 28px;
+  color:#7f7f7f;
+  list-style: none;
+}
+.cutting .bottom h2{
+  font-size: 16px;
+  color:#848484;
+  list-style: none;
+}
+.cutting .box{
+ 
+  background-color: #f2f2f2;
+
+}
+.cutting .upper h1{
+   font-size: 28px;
+   color:#7f7f7f;
+}

@@ -1,0 +1,25 @@
+.footer{
+  background-color: #ffffff;
+}
+
+.footer .logo .main-heading{
+    font-size: 36px;
+}
+.footer .logo  h2{
+   font-size: 32px;
+}
+.footer .logo p{
+    font-size: 16px;
+    line-height: 0px;
+}
+.footer .box{
+  padding-right: 125px;
+}
+
+
+@media screen and (max-width: 992px) {
+ .footer .box{
+  padding-right: 0px;
+}
+    
+}

@@ -1,0 +1,23 @@
+.heros .image-banner{
+    background-image: url('./../../../public/images/Hero.webp'); 
+    background-position: 50%;
+    background-repeat: no-repeat;
+    aspect-ratio: 7/3;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+  }
+  .heros h2{
+     font-size: 28px;
+     color: #eeb405;
+  }
+  .heros h1{
+    font-size: 56px;
+    color:#7f7f7f;
+  }
+ 
+  .heros .box{
+    background-color: #ffffff;    
+  }

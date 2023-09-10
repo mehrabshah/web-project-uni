@@ -1,0 +1,22 @@
+.blog .button-width{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #d9d9d9;;
+}
+.blog p{
+   font-size: 16px;
+   color: #929292;
+}
+.blog .upper{
+   padding-left: 250px;
+   padding-right:250px;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .blog .upper{
+        padding-left: 0px;
+        padding-right:0px;
+     }
+  }

@@ -1,0 +1,49 @@
+.location .button-width{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #d9d9d9;;
+}
+.location p{
+   font-size: 16px;
+   color: #929292;
+}
+.location .upper{
+   padding-left: 250px;
+   padding-right:250px;
+}
+.map-margin{
+   margin: 90px 0px;
+}
+.location .button-width{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #d9d9d9;;
+}
+.location address{
+    font-size: 28px;
+}
+.location h1{
+    font-size: 36px;
+}
+.location h2{
+    font-size: 36px;
+   
+}
+.location  .img-map{
+   max-width: 100%;
+
+}
+@media screen and (max-width: 992px) {
+    
+     .location .upper{
+        padding-left: 0px;
+        padding-right:0px;
+     }
+      
+     .location .map-margin{
+      margin: 0px;
+   }
+
+  }
