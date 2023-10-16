@@ -27,6 +27,13 @@
    box-shadow: none;
 }
 
+.book .send-button{
+   padding: 4px 16px;
+   display: flex;
+   justify-content: end;
+
+}
+
 @media screen and (max-width: 992px) {
     .book .upper{
         padding-left: 0px;
